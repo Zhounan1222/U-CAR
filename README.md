@@ -1,2 +1,10 @@
-# U-CAR
-The paper: Uncertainty-Aware Cross-Modal Retrieval for Medical Report Generation
+# Uncertainty-Aware Cross-Modal Retrieval for Medical Report Generation
+
+![Overview of the proposed U-CAR framework. (a) Alignment and memory bank construction: chest X-ray images and corresponding reports are aligned to build dual-path (visual and textual) retrieval-aware memory banks. (b) Cross-modal alignment retrieval: leveraging both visual and textual memory banks to provide complementary context for report generation. (c) Uncertainty-aware retrieval refinement: dynamically adjusting retrieval usage based on estimated confidence, reducing noisy or overly correlated references..](https://github.com/Zhounan1222/MedSAM-U/blob/main/framework.png)
+ ## Paper link
+
+ ## Abstract
+Automatic medical report generation (MRG) has advanced with retrieval-augmented strategies, but still faces two persistent challenges: 1) largely rely on single-modal retrieval, limiting multimodal semantic capture and cross-modal alignment. 2) lack reliable information control, risking irrelevant/noisy content and potential data leakage. To address these, we propose Uncertainty-aware Cross-modal Alignment and Refinement (U-CAR), a unified framework that enhances both semantic integration and retrieval reliability. First, a cross-modal alignment module explicitly learns fine-grained correspondences between visual and textual representations, ensuring consistent semantics across modalities. This alignment guides the construction of dual-path retrieval-aware memory banks, with one in the visual domain and one in the textual domain, enabling retrieval to capture complementary cues from both modalities. Second, we design a cross-modal retrieval-augmented generation strategy that jointly attends to the retrieved visual and textual context, thereby enriching semantic coverage and reinforcing the integration of multi-modal evidence in the generated reports. In parallel, we introduce an uncertainty-aware refinement mechanism that quantifies generation confidence to  adaptively determine the necessity of retrieval. Experiments on the IU X-Ray and MIMIC-CXR datasets demonstrate that U-CAR outperforms the current state-of-the-art methods, achieving a 9% increase in CIDEr on IU X-Ray. On MIMIC-CXR, U-CAR improves BLEU-4 by 4%. These improvements across multiple key metrics reflect the stronger overall performance of U-CAR in generating accurate, coherent, and clinically relevant medical reports. 
+
+## Code
+ The code will be released soon.
