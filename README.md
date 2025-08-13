@@ -1,6 +1,6 @@
 # Uncertainty-Aware Cross-Modal Retrieval for Medical Report Generation
 
-![Overview of the proposed U-CAR framework. (a) Alignment and memory bank construction: chest X-ray images and corresponding reports are aligned to build dual-path (visual and textual) retrieval-aware memory banks. (b) Cross-modal alignment retrieval: leveraging both visual and textual memory banks to provide complementary context for report generation. (c) Uncertainty-aware retrieval refinement: dynamically adjusting retrieval usage based on estimated confidence, reducing noisy or overly correlated references..](https://github.com/Zhounan1222/MedSAM-U/blob/main/framework.png)
+![Overview of the proposed U-CAR framework. (a) Alignment and memory bank construction: chest X-ray images and corresponding reports are aligned to build dual-path (visual and textual) retrieval-aware memory banks. (b) Cross-modal alignment retrieval: leveraging both visual and textual memory banks to provide complementary context for report generation. (c) Uncertainty-aware retrieval refinement: dynamically adjusting retrieval usage based on estimated confidence, reducing noisy or overly correlated references..](https://github.com/Zhounan1222/U-CAR/blob/main/framework.png)
  ## Paper link
 
  ## Abstract
