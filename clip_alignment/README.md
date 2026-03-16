@@ -5,7 +5,7 @@
 Train the model for **Cross-Modal Representation Alignment**:
 
 ```bash
-python train.py
+python train_clip.py
 ```
 
 ## 2. Memory Bank Construction
